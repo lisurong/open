@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="styles/common.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<title>无标题文档</title>
+</head>
+
+<body>
+<!--顶部开始-->
+<div class="header">
+  <div class="pageWidth">
+    <h1 class="logo floatL">
+      <a href="JavaScript:;" title="中企动力开放平台"></a>
+    </h1>
+    <div class="nav floatL">
+      <a>API文档</a>
+      <a>控制台</a>
+    </div>
+    <div class="fr floatR">
+      <div class="search floatL">
+        <div class="s-con">
+          <input class="s-input" value="帮助文档/API搜索" attr="帮助文档/API搜索" /><a class="s-icon"></a>
+        </div>
+      </div>
+      <div class="person floatR">
+        <!-- <a class="per-btn">登录</a><span class="per-x">|</span><a class="per-btn">注册</a> -->
+        <span class="pic"></span>
+        <span class="txt">
+          <a class="a1">中企会员</a>
+          <a class="a2"></a>
+          <div class="xl" style="display:none;">
+            <div class="gr">
+              <em class="xl-icon"></em>
+              <span>个人中心</span>
+            </div>
+            <div class="line"></div>
+            <div class="tc">
+              <em class="xl-icon"></em>
+              <span>退出</span>
+            </div>
+          </div>
+        </span>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<!--顶部结束-->
+<!--中间开始-->
+<div class="api-main">
+  <div class="pageWidth">
+    <div class="crumbs">
+      <a class="c-home"></a><em>></em><a class="c-x">控制台</a><em>></em><span class="c-x">开放功能列表</span>
+    </div>
+    <div class="api-con">
+      <div class="floatL left-nav">
+        <div class="nav-box">
+          <h3>控制台</h3>
+          <a>应用管理</a>
+          <a class="active">开放功能列表</a>
+        </div>
+      </div>
+      <div class="floatR right-list">
+        <h3 class="title">开放功能列表</h3>
+        <!--没有功能的情况开始-->
+        <div class="funlist">
+          <div class="funlist-con">
+            <span class="fun-icon"></span>
+            <p>您还没有使用中的云产品，快去了解体验吧</p>
+            <a class="button btn-normal"><span></span>去市场逛逛</a>
+          </div>
+        </div>
+        <!--没有功能的情况结束-->
+        <div class="but-div"><a class="button btn-normal"><strong>+</strong>创建应用</a></div>
+        <table class="table" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <th width="162">功能组名称</th>
+            <th width="65">业务线</th>
+            <th width="503">功能描述</th>
+            <th width="75">审核状态</th>
+            <th width="49">操作</th>
+          </tr>
+          <tr>
+            <td><input type="checkbox" class="checkbox" /><a>订单管理</a></td>
+            <td>微酒店</td>
+            <td>开放酒店订单查询，数据抓取功能</td>
+            <td>--</td>
+            <td><a>申请</a></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" class="checkbox" /><a>订单管理</a></td>
+            <td>微酒店</td>
+            <td>开放酒店订单查询，数据抓取功能</td>
+            <td><div class="pass"><span>已通过</span></div></td>
+            <td><a>申请</a></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" class="checkbox" /><a>订单管理</a></td>
+            <td>微酒店</td>
+            <td>开放酒店订单查询，数据抓取功能</td>
+            <td>
+              <div class="fail">
+                <span>未通过</span>
+                <em class="yiw"></em>
+                <div class="org_box" style="display:none;">
+                  <span class="org_bot_cor_2"></span>
+                    由于最近雾霾比较大，工作人员都回家避难了，所以您的申请未能审核通过，请您申请其他功能组！
+                </div>
+              </div>
+            </td>
+            <td><a>--</a></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" class="checkbox" /><a>订单管理</a></td>
+            <td>微酒店</td>
+            <td>开放酒店订单查询，数据抓取功能</td>
+            <td>--</td>
+            <td><a>--</a></td>
+          </tr>
+        </table>
+        <div class="pages">
+          <div class="floatL">
+            <input class="checkboxAll" type="checkbox" class="checkbox" /><a class="yzm btn78">批量申请</a>
+          </div>
+          <div class="floatR pages-idx">
+            <span class="total">共4条</span>
+            <a class="pagepre"></a>
+            <a class="ym active">1</a><a class="ym">2</a><a class="ym">3</a>
+            <a class="pagenext"></a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!--中间结束-->
+</body>
+</html>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $(".fail").hover(function(){
+        $(".org_box").css("display","block");
+      },function(){
+        $(".org_box").css("display","none");
+      }); 
+    })
+</script>

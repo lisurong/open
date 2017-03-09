@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="styles/common.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<title>无标题文档</title>
+</head>
+
+<body>
+<!--顶部开始-->
+<div class="header">
+  <div class="pageWidth">
+    <h1 class="logo floatL">
+      <a href="JavaScript:;" title="中企动力开放平台"></a>
+    </h1>
+    <div class="nav floatL">
+      <a>API文档</a>
+      <a>控制台</a>
+    </div>
+    <div class="fr floatR">
+      <div class="search floatL">
+        <div class="s-con">
+          <input class="s-input" value="帮助文档/API搜索" attr="帮助文档/API搜索" /><a class="s-icon"></a>
+        </div>
+      </div>
+      <div class="person floatR">
+        <!-- <a class="per-btn">登录</a><span class="per-x">|</span><a class="per-btn">注册</a> -->
+        <span class="pic"></span>
+        <span class="txt">
+          <a class="a1">中企会员</a>
+          <a class="a2"></a>
+          <div class="xl" style="display:none;">
+            <div class="gr">
+              <em class="xl-icon"></em>
+              <span>个人中心</span>
+            </div>
+            <div class="line"></div>
+            <div class="tc">
+              <em class="xl-icon"></em>
+              <span>退出</span>
+            </div>
+          </div>
+        </span>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<!--顶部结束-->
+<!--中间开始-->
+<div class="api-main">
+  <div class="pageWidth">
+    <div class="crumbs">
+      <a class="c-home"></a><em>></em><a class="c-x">控制台</a><em>></em><a class="c-x">应用管理</a><em>></em><span class="c-x">开发者认证</span>
+    </div>
+    <div class="api-con">
+      <div class="floatL left-nav">
+        <div class="nav-box">
+          <h3>控制台</h3>
+          <a class="active">应用管理</a>
+          <a>开放功能列表</a>
+        </div>
+      </div>
+      <div class="floatR right-list">
+        <h3 class="title">开发者认证</h3>
+        <div class="acc-f">
+          <div class="acc-ch"><label class="disabled"><input type="radio" disabled="true" />个人开发者</label><label><input type="radio" />企业开发者</label></div>
+          <ul class="acc-list">
+            <li>
+              <div class="f-title"><span>企业名称</span><i>*</i></div>
+              <div class="f-input">
+                <input type="text" class="com-input input-dis input320" disabled="true" value="中企动力科技股份有限公司" />
+              </div>
+            </li>
+            <li>
+              <div class="f-title"><span>联系人</span><i>*</i></div>
+              <div class="f-input">
+                <input type="text" class="com-input input320" placeholder="请输入联系人" />
+              </div>
+            </li>
+            <li>
+              <div class="f-title"><span>手机号码</span><i>*</i></div>
+              <div class="f-input">
+                <input type="text" class="com-input input320 error" value="13800138000" />
+                <em class="red">请输入正确的手机号码</em>
+              </div>
+            </li>
+            <li>
+              <div class="f-title"><span>验证码</span><i>*</i></div>
+              <div class="f-input">
+                <input type="text" class="com-input input188" value="111111" /><!-- <a class="yzm btn120">获取验证码</a> -->
+                <a onclick="countdown(this,60)" class="yzm btn120" style="display: inline-block;"><span class="bind_button-middle">获取验证码</span></a>
+                <a class="yzm btn120 time_button" style="display: none;"><span class="time_button-middle"><em class="time">60</em>&nbsp;秒后重新获取</span></a>
+                <em class="red">请输入正确的手机号码</em>
+              </div>
+            </li>
+            <li>
+              <div class="f-title"><span>邮箱</span><i>*</i></div>
+              <div class="f-input">
+                <input type="text" class="com-input input320 input-blue" value="dfdfdfd@126.com" />
+              </div>
+            </li>
+          </ul>
+          <div class="f-cz">
+            <a class="button btn-disabled">提交</a><a class="button btn-normal">提交</a>
+          </div>
+        </div>
+      </div>
+      <!--认证成功弹出层开始-->
+      <div class="tcc">
+        <div class="tcc-con">
+          <span class="tcc-icon"></span><em>认证成功</em>
+        </div>
+      </div>
+      <!--认证成功弹出层结束-->
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!--中间结束-->
+</body>
+</html>
+<script type="text/javascript" src="js/index.js"></script>

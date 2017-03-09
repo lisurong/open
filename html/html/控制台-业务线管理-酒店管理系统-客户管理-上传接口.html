@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="styles/common.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<title>无标题文档</title>
+</head>
+
+<body>
+<!--顶部开始-->
+<div class="header">
+  <div class="pageWidth">
+    <h1 class="logo floatL">
+      <a href="JavaScript:;" title="中企动力开放平台"></a>
+    </h1>
+    <div class="nav floatL">
+      <a>API文档</a>
+      <a>控制台</a>
+    </div>
+    <div class="fr floatR">
+      <div class="search floatL">
+        <div class="s-con">
+          <input class="s-input" value="帮助文档/API搜索" attr="帮助文档/API搜索" /><a class="s-icon"></a>
+        </div>
+      </div>
+      <div class="person floatR">
+        <!-- <a class="per-btn">登录</a><span class="per-x">|</span><a class="per-btn">注册</a> -->
+        <span class="pic"></span>
+        <span class="txt">
+          <a class="a1">中企会员</a>
+          <a class="a2"></a>
+          <div class="xl" style="display:none;">
+            <div class="gr">
+              <em class="xl-icon"></em>
+              <span>个人中心</span>
+            </div>
+            <div class="line"></div>
+            <div class="tc">
+              <em class="xl-icon"></em>
+              <span>退出</span>
+            </div>
+          </div>
+        </span>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<!--顶部结束-->
+<!--中间开始-->
+<div class="api-main">
+  <div class="pageWidth">
+    <div class="crumbs">
+      <a class="c-home"></a><em>></em><a class="c-x">控制台</a><em>></em><a class="c-x">业务线管理</a><em>></em><a class="c-x">酒店管理系统</a><em>></em><a class="c-x">客户管理</a><em>></em><span class="c-x">上传接口</span>
+    </div>
+    <div class="api-con">
+      <div class="floatL left-nav">
+        <div class="nav-box">
+          <h3>控制台</h3>
+          <a>应用管理</a>
+          <a>开放功能列表</a>
+          <a class="active">开放功能列表</a>
+        </div>
+      </div>
+      <div class="floatR right-list">
+        <h3 class="title">上传接口</h3>
+        <div class="acc-f">
+          <ul class="acc-list">
+            <li>
+              <div class="f-title"><span>中文名称</span><i>*</i></div>
+              <div class="f-input">
+                <input type="text" class="com-input input320" placeholder="请输入2-15个汉字" />
+              </div>
+            </li>
+            <li>
+              <div class="f-title"><span>英文名称</span><i>*</i></div>
+              <div class="f-input">
+                <input type="text" class="com-input input320" placeholder="请输入英文名称" />
+                <em class="red">请输入正确的手机号码</em>
+              </div>
+            </li>
+            <li>
+              <div class="f-title"><span>所属功能</span><i>*</i></div>
+              <div class="f-input">
+                <select class="select error">
+                  <option value="" selected="selected">请选择业务线</option>
+                  <option value="1">1</option>
+                </select>
+                <em class="red">请选择所属功能</em>
+              </div>
+            </li>
+            <li>
+              <div class="f-title"><span>调用方法</span><i>*</i></div>
+              <div class="f-input">
+                <select class="select error">
+                  <option value="" selected="selected">请选择调用方法</option>
+                  <option value="1">1</option>
+                </select>
+                <em class="red">请选择调用方法</em>
+              </div>
+            </li>
+            <li>
+              <div class="f-title"><span>测试URL</span><i>*</i></div>
+              <div class="f-input">
+                <input type="text" class="com-input input320" placeholder="请输入URL地址" />
+              </div>
+            </li>
+            <li>
+              <div class="f-title"><span>正式URL</span><i>*</i></div>
+              <div class="f-input">
+                <input type="text" class="com-input input320" placeholder="请输入URL地址" />
+              </div>
+            </li>
+            <li>
+              <div class="f-title"><span>接口描述</span><i>*</i></div>
+              <div class="f-input">
+                <textarea>请输入接口描述，不超过500字符</textarea>
+              </div>
+            </li>
+            <li>
+              <div class="f-title"><span>参数信息</span><i>*</i></div>
+              <div class="f-input">
+                <div class="but-div"><a class="button btn-normal"><strong>+</strong>新增</a></div>
+                <table class="table jk-table" cellspacing="0" cellpadding="0" border="0" width="960">
+                  <tr>
+                    <th width="70">参数名称</th>
+                    <th width="70">参数类型</th>
+                    <th width="100">是否必须</th>
+                    <th width="140">示例值</th>
+                    <th width="295">描述</th>
+                    <th width="">操作</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="text" class="com-input" style="width:80px;" />
+                    </td>
+                    <td>
+                      <input type="text" class="com-input" style="width:80px;" />
+                    </td>
+                    <td>
+                      <select class="select" style="width:100%;">
+                        <option value="" selected="selected">2</option>
+                        <option value="1">1</option>
+                      </select>
+                    </td>
+                    <td>
+                      <input type="text" class="com-input" style="width:120px;" />
+                    </td>
+                    <td>无聊无聊无聊</td>
+                    <td><a>删除</a></td>
+                  </tr> 
+                  <tr>
+                    <td>
+                      <input type="text" class="com-input" style="width:80px;" />
+                    </td>
+                    <td>
+                      <input type="text" class="com-input" style="width:80px;" />
+                    </td>
+                    <td>
+                      <select class="select" style="width:100%;">
+                        <option value="" selected="selected">2</option>
+                        <option value="1">1</option>
+                      </select>
+                    </td>
+                    <td>
+                      <input type="text" class="com-input" style="width:120px;" />
+                    </td>
+                    <td>无聊无聊无聊</td>
+                    <td><a>删除</a></td>
+                  </tr>                  
+                </table>
+              </div>
+            </li>
+          </ul>
+          <div class="f-cz">
+            <a class="button btn-normal">提交审核</a><a class="yzm btn96" style="margin-left:10px;">保存</a>
+          </div>
+        </div>
+      </div>
+      <!--认证成功弹出层开始-->
+      <div class="tcc">
+        <div class="tcc-con">
+          <span class="tcc-icon"></span><em>认证成功</em>
+        </div>
+      </div>
+      <!--认证成功弹出层结束-->
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!--中间结束-->
+</body>
+</html>
+<script type="text/javascript" src="js/index.js"></script>
